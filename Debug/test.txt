@@ -1,0 +1,25 @@
+pd
+
+setc blue
+
+repeat 50
+[
+	fd 40
+	repeat 7
+	
+	[
+		rt 45
+		fd 40
+	]
+
+	ifelse (color = pink)
+	[
+		setc blue
+	]
+	[
+		setc color + 1
+	]
+	
+]
+
+ht
